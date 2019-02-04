@@ -1,0 +1,4 @@
+BIABDUCTION
+REC list(VAR x):=((VAR x) = (NULL)) OR (EXT (VAR d) (EXT (VAR x1) (((VAR x) |--B--> (VAR d,VAR x1)) * (list(VAR x1)))))
+((VAR a) |--[ B W ]--> (VAR b,VAR c)) * ((VAR c) |--[ [ W B ] W ]--> (VAR d,VAR e))
+list(VAR a)

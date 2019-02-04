@@ -1,0 +1,2 @@
+UNIFORM
+(VAR X) |--B--> (VAR Y,VAR Z)

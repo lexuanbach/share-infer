@@ -1,0 +1,2 @@
+PRECISE
+(VAR Y) |--B--> (VAR x,VAR x)

@@ -1,0 +1,16 @@
+ssl_algebra.vo ssl_algebra.glob ssl_algebra.v.beautified: ssl_algebra.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo ssl_shares.vo neg_logic.vo modal_logic.vo ssl_logic.vo
+ssl_algebra.vio: ssl_algebra.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio ssl_shares.vio neg_logic.vio modal_logic.vio ssl_logic.vio
+ssl_logic.vo ssl_logic.glob ssl_logic.v.beautified: ssl_logic.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo neg_logic.vo modal_logic.vo ssl_shares.vo
+ssl_logic.vio: ssl_logic.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio neg_logic.vio modal_logic.vio ssl_shares.vio
+ssl_logic_model.vo ssl_logic_model.glob ssl_logic_model.v.beautified: ssl_logic_model.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo ssl_shares.vo neg_logic.vo modal_logic.vo ssl_logic.vo ssl_algebra.vo logics_direct.vo
+ssl_logic_model.vio: ssl_logic_model.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio ssl_shares.vio neg_logic.vio modal_logic.vio ssl_logic.vio ssl_algebra.vio logics_direct.vio
+ssl_shares.vo ssl_shares.glob ssl_shares.v.beautified: ssl_shares.v ../../VST/msl/msl_direct.vo
+ssl_shares.vio: ssl_shares.v ../../VST/msl/msl_direct.vio
+ssl_examples.vo ssl_examples.glob ssl_examples.v.beautified: ssl_examples.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo neg_logic.vo modal_logic.vo ssl_shares.vo ssl_logic.vo
+ssl_examples.vio: ssl_examples.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio neg_logic.vio modal_logic.vio ssl_shares.vio ssl_logic.vio
+neg_logic.vo neg_logic.glob neg_logic.v.beautified: neg_logic.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo
+neg_logic.vio: neg_logic.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio
+modal_logic.vo modal_logic.glob modal_logic.v.beautified: modal_logic.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo neg_logic.vo
+modal_logic.vio: modal_logic.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio neg_logic.vio
+logics_direct.vo logics_direct.glob logics_direct.v.beautified: logics_direct.v ../../VST/msl/msl_direct.vo ../../VST/msl/seplog.vo ../../VST/msl/log_normalize.vo neg_logic.vo modal_logic.vo
+logics_direct.vio: logics_direct.v ../../VST/msl/msl_direct.vio ../../VST/msl/seplog.vio ../../VST/msl/log_normalize.vio neg_logic.vio modal_logic.vio

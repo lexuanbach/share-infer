@@ -1,0 +1,3 @@
+PRECISE
+REC tree(VAR x):=(VAR x = NULL) OR (EXT (VAR x1) (EXT (VAR x2) (EXT (VAR d) (((VAR x) |--B--> (VAR d,VAR x1,VAR x2)) * ((tree(VAR x1)) * (tree(VAR x2)))))))
+tree(VAR y)

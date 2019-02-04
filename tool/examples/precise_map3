@@ -1,0 +1,2 @@
+PRECISE
+((VAR Y) |--B--> (VAR X,VAR X)) * (EXT (VAR W) (EXT (VAR Z) ((VAR X) |--[ B [ B W ] ]--> (VAR Z,VAR W))))

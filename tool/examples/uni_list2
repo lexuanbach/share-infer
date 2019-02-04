@@ -1,0 +1,3 @@
+UNIFORM [ [ B W ] [ W B ] ]
+REC list(VAR x):=((VAR x) = (NULL)) OR (EXT (VAR d) (EXT (VAR x1) (((VAR x) |--[ W B ]--> (VAR d,VAR x1)) * (list(VAR x1)))))
+list(VAR a)

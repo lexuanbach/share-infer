@@ -1,0 +1,3 @@
+BIABDUCTION
+((VAR X) |--[ B [ B W ] ]--> (VAR Y,VAR Z)) * ((VAR Z) |--B--> (VAR Z,VAR X))
+((VAR X) |--[ [ W B ] B ]--> (VAR Y,VAR Z)) * ((VAR Y) |--B--> (VAR Z,VAR X))

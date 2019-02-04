@@ -1,0 +1,2 @@
+UNIFORM [ B W ]
+((VAR X) |--[ B [ B W ] ]--> (VAR Y,VAR Z)) * ((VAR Y) |--[ B [ B W ] ]--> (VAR Z,VAR X))
